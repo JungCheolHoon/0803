@@ -5,7 +5,8 @@ public class Input {
 		Scanner sc = new Scanner(System.in);
 		for (int i = 0; i < array.length; i++) {
 			array[i] = new Student(); //한명의 학생 주소를 생성해서 학생주소배열에 넣는다.
-			System.out.print("Hakbun : ");
+			array[i].ranking = 1;
+			System.out.print("\nHakbun : ");
 			array[i].hakbun = sc.nextLine();  //그 학생 주소의 학번,
 			System.out.print("Name : ");
 			array[i].name = sc.nextLine();
