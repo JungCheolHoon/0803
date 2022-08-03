@@ -1,5 +1,5 @@
 
-public class Output {
+public class Output {	//
 	void output(Student[] array) {
 		printLabel(); // Call by name
 		for (int i = 0; i < array.length; i++) {

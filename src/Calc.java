@@ -14,5 +14,5 @@ public class Calc {
 		default :		array[i].grade ='F' ;
 		}
 		}
-	}
+	}//
 }

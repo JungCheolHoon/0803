@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Input {
+public class Input {	//
 	void input(Student [] array) {
 		Scanner sc = new Scanner(System.in);
 		for (int i = 0; i < array.length; i++) {
