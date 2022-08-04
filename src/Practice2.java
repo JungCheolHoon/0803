@@ -15,12 +15,21 @@ public class Practice2 {
 		};
 		int [][] sum = new int[2][2];
 		int [][] gop = new int[2][2];
-		
+		System.out.println("행렬의합");
 		for(int i = 0 ; i <2;i++) {
 			for(int j = 0 ; j <2 ; j++) {
 				sum[i][j] = A[i][j] + B[i][j];
-				gop[i][j] = A[i][0]*C[j][0] + A[i][1]*C[j][1]; 
+				gop[i][j] = A[i][0]*C[j][0] + A[i][1]*C[j][1];
+				System.out.print(sum[i][j]+"\t");
 			}
+			System.out.println();
+		}
+		System.out.println("행렬의곱");
+		for(int i = 0 ; i <2;i++) {
+			for(int j = 0 ; j <2 ; j++) {
+			System.out.print(gop[i][j]+"\t");
+			}
+			System.out.println();
 		}
 		
 		
